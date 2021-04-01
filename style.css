@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: rgb(83, 85, 66);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+}
+
+/* TOP ROW START */
+.topWrap {
+  display: flex;
+  flex-direction: row;
+}
+/* ROW CONTAINER 1*/
+.languagesContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  border-right: 0.5rem solid rgb(192, 184, 76);
+  flex-wrap: wrap;
+}
+/* BOX 1 */
+.languagesBox1 p {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0.3rem 0.3rem 0.2rem black;
+}
+.languagesBox1 ul li {
+  font-size: 2rem;
+  padding: 0.5rem;
+  max-width: 10rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background: black;
+  color: rgb(216, 216, 62);
+  transition: 0.4s;
+}
+.languagesBox1 ul li:hover {
+  color: black;
+  background: rgb(216, 216, 62);
+  transform: scale(1.1);
+  box-shadow: 0.4rem 0.3rem 0.4rem black;
+}
+/* BOX 2 */
+.languagesBox2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 0 0;
+}
+.languagesBox2 button:nth-child(2) {
+  margin: 2rem 0;
+}
+.languagesBox2 button {
+  padding: 0.4rem 0.6rem;
+  font-size: 1.7rem;
+  outline: none;
+  border: 0;
+  border-radius: 0.2rem;
+  background: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.languagesBox2 button:hover {
+  transform: scale(1.1);
+}
+/* BOX 3 */
+.languagesBox3 select {
+  padding: 0.4rem 0.6rem;
+  font-size: 1.7rem;
+  outline: none;
+  border-radius: 0.2rem;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+/* ROW CONTAINER 2*/
+.colorsContainer {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 0.5rem solid rgb(192, 184, 76);
+}
+/* BOX 1 */
+.colorsBox1 {
+  font-size: 3rem;
+}
+.colorsBox1 p {
+  color: white;
+  margin-bottom: 1rem;
+  text-shadow: -0.1rem 0.1rem 0.2rem black;
+}
+.colorsBox1 select {
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 1rem 1rem 0 0;
+  outline: 0;
+  border: 0;
+  padding: 0.5rem 1rem;
+}
+
+/* ROW CONTAINER 3*/
+.randomContainer {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+/* BOX 1 - 2 */
+.randomBox1,
+.randomBox2 {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.randomBox1 button {
+  font-size: 2rem;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  transition: 0.2s;
+}
+.randomBox1 button:hover,
+.randomBox2 button:hover {
+  transform: scale(1.1);
+  border-radius: 1rem;
+  background: white;
+}
+.randomBox2 img {
+  margin-top: 1rem;
+  max-width: 25rem;
+  border: 0.2rem solid black;
+  padding: 1rem;
+  box-shadow: 0 0 1rem 1rem black;
+}
+.randomBox2 button {
+  font-size: 2rem;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  transition: 0.2s;
+}
+/* TOP ROW END */
+
+/* BOT ROW START */
+.bottomWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* ROW CONTAINER 1*/
+.picturesContainer {
+  flex: 1;
+  padding: 1rem 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 0.5rem solid rgb(192, 184, 76);
+}
+.picturesBox1 {
+  width: 40rem;
+  height: 20rem;
+  background: url(landscape/land3.jpg) no-repeat;
+  box-shadow: 0 0 0 1rem black;
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+.picturesBox2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.picturesBox2 p {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+.picturesBox2 button {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 0.3rem 2rem;
+  border: 0;
+  outline: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: black;
+  color: yellow;
+}
+.picturesBox2 button:hover {
+  background: yellow;
+  color: black;
+}
+/* ROW CONTAINER 2*/
+.paragrafContainer {
+  flex: 1;
+  padding: 1rem;
+  border-right: 0.5rem solid rgb(192, 184, 76);
+}
+/* BOX 1 */
+.paragrafBox1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.paragrafBox1 p {
+  max-height: 20rem;
+  overflow: hidden;
+  background: gray;
+  border: 0.2rem solid black;
+  padding: 0 1rem;
+  text-align: justify;
+  transition: 0.6s;
+}
+p.bigger {
+  max-height: 70rem;
+}
+.paragrafBox1 button {
+  padding: 1rem 2rem;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 1.8rem;
+  border-radius: 0 0 6rem 6rem;
+}
+.paragrafBox1 button:hover {
+  color: rgb(16, 34, 32);
+  text-shadow: -0.1rem -0.1rem 0.1rem black;
+}
+/* ROW CONTAINER 3*/
+.hideOutContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hideOutContainer button {
+  padding: 1rem;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 3rem;
+  background: black;
+  color: white;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem 0.3rem rgb(206, 89, 89);
+}
+.hideOutContainer button:hover {
+  color: rgb(9, 224, 214);
+}
+/* BOX 1*/
+.hideOutBox1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  background: rgb(58, 8, 8);
+  border-radius: 50%;
+  padding: 2rem;
+  box-shadow: 0 0.3rem 0.3rem 0.2rem black;
+  opacity: 0;
+  transition: 1s;
+}
+.hideOutBox1.show {
+  opacity: 100;
+}
+/* BOT ROW END */
+
+/* UNDER BOTTOM ROW START */
+.underBottomWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem;
+  justify-content: space-evenly;
+}
+.boxesBox1 {
+  cursor: pointer;
+  width: 10%;
+  border: 0.1rem solid black;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(135, 182, 135);
+}
+.boxesBox1 span {
+  font-size: 5rem;
+  font-weight: bold;
+  color: black;
+}
+.outer {
+  cursor: pointer;
+  width: 10%;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.outer span {
+  font-size: 5rem;
+  font-weight: bold;
+  color: black;
+}
+.inner1 {
+  width: 100%;
+  border: 0.1rem solid black;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  background-color: rgb(135, 182, 135);
+}
+.inner2six {
+  display: flex;
+}
+.inner2six input[type="text"] {
+  width: 100%;
+  outline: 0;
+}
+.inner2six button {
+  padding: 0.5rem;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.inner2six button:hover {
+  background: black;
+  color: white;
+}
+.inner2eight input[type="text"] {
+  width: 100%;
+  outline: 0;
+}
+.outer2 {
+  cursor: pointer;
+  width: 10%;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.outer2 span {
+  font-size: 5rem;
+  font-weight: bold;
+  color: black;
+}
+/* UNDER BOTTOM ROW END */
+
+/* EXTRA BOXES FUNCTIONS */
+#box1 {
+  filter: blur(0.3rem);
+  -webkit-filter: blur(0.3rem);
+}
+#box2 {
+  filter: brightness(0);
+  -webkit-filter: brightness(0);
+  transform: scale(2);
+}
+#box5 {
+  display: none;
+}
+.radius {
+  border-radius: 50%;
+  transition: 1s;
+}
+form {
+  display: flex;
+}
+@media screen and (max-width: 980px) {
+  .topWrap {
+    flex-direction: column;
+  }
+  .languagesContainer,
+  .colorsContainer {
+    border-right: none;
+    border-bottom: 0.5rem solid rgb(192, 184, 76);
+  }
+  .bottomWrap {
+    flex-direction: column;
+  }
+  .picturesContainer,
+  .paragrafContainer {
+    border-right: none;
+    border-bottom: 0.5rem solid rgb(192, 184, 76);
+  }
+  .underBottomWrap {
+    flex-direction: column;
+  }
+  .boxesBox1 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .outer,
+  .outer2 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
